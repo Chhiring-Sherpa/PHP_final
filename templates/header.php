@@ -22,7 +22,7 @@
       <div class="mid">
         <!--mid box for navbar--->
         <ul class="navbar">
-          <li><a href="index.html">Home</a></li>
+          <li><a href="index.php">Home</a></li>
           <?php if (isset($_SESSION['email'])): ?>
           <li><a href="member.php">Member</a></li>
           <li><a href="logout.php">Logout</a></li>
